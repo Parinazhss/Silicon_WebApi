@@ -11,7 +11,7 @@ public class CourseEntity
     public string Title { get; set; } = null!;
     public string Author { get; set; } = null!;
     public string Price { get; set; } = null!;
-    public string? DiscountPrice { get; set; }
+    public string? DiscountPrice { get; set; } 
     public string Hours { get; set; } = null!;
     public string LikesInProcent { get; set; } = null!;
     public string LikesInNumber { get; set; } = null!;
